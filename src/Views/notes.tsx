@@ -5,11 +5,9 @@ import "./notes.css"
 export default function Notes() {
 
     return (
-        <>
         <div id="content">
             <label> Notes</label>
             <textarea/>
         </div>
-        </>
     )
 }

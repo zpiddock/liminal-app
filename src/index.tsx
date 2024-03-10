@@ -1,22 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './Views/App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, RouterProvider, createBrowserRouter, Routes as ReactRoutes, Route } from 'react-router-dom';
-import Routes from './routes';
-import Notes from './notes';
-
-const router = createBrowserRouter([
-{
-  path: "/",
-  element: <App />,
-},
-{
-  path: "/notes",
-  element: <Notes />
-}
-])
+import Routes from './Views/routes';
+import Notes from './Views/notes';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
